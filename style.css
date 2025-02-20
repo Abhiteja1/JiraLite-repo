@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.jiraboard{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column{
+  width: 30%;
+  min-height: 400px;
+  border:2.5px solid rgb(170, 158, 158);
+  text-align: center;
+  padding: 10px;
+  
+}
+.card{
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid rgb(185, 142, 142);
+}
