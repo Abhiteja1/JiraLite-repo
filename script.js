@@ -42,7 +42,8 @@ function addtask(){
   selector.addEventListener("click",(eventDetails)=>{
     let selectedOption = eventDetails.target.value;
     let selectedContainer = document.querySelector(`#${selectedOption}`)
-    selectedContainer.append(card);
+    if(selectedOption!= "todo")
+      {selectedContainer.append(card)};
   })
 }
 
