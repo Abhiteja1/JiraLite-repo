@@ -39,11 +39,10 @@ function addtask(){
 
   // choosing option then task should move according to its status
 
-  selector.addEventListener("click",(eventDetails)=>{
+  selector.addEventListener("change",(eventDetails)=>{
     let selectedOption = eventDetails.target.value;
     let selectedContainer = document.querySelector(`#${selectedOption}`)
-    if(selectedOption!= "todo")
-      {selectedContainer.append(card)};
+    selectedContainer.append(card);
   })
 }
 
