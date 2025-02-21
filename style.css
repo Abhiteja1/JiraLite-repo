@@ -10,16 +10,30 @@
   padding: 20px;
 }
 
+.addtaskbtn{
+  padding: 10px;
+  color: rgb(178, 99, 99);
+  border: 2px solid red;
+  border-radius: 10px;
+}
 .column{
   width: 30%;
   min-height: 400px;
   border:2.5px solid rgb(170, 158, 158);
   text-align: center;
   padding: 10px;
+  margin: 5px;
+  color: rgb(83, 83, 36);
   
 }
 .card{
+  margin: 10px;
+}
+
+.parentcard{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(230, 218, 153);
+  border: 2px solid black;
   margin: 5px;
-  padding: 5px;
-  border: 2px solid rgb(185, 142, 142);
 }
